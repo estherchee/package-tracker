@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+  font-family: 'Mukta', sans-serif;
+  margin: 0px;
+  height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+code {
+  font-family: 'Mukta', sans-serif;
+}

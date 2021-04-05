@@ -1,0 +1,12 @@
+{
+  "hello.label": "Hello",
+  "greeting.label": "here are your parcels",
+  "ready-for-pickup.label": "Ready for pickup",
+  "on-the-way.label": "On the way",
+  "order-info-received.label": "Order info received",
+  "delivered.label": "Delivered",
+  "parcel.label": "Parcel",
+  "from.label": "from",
+  "pickup-location.label": "Pickup Location",
+  "eta.label": "ETA"
+}

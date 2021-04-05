@@ -1,0 +1,37 @@
+.parcel-card {
+  border: 2px solid #d8f3dc;
+  border-radius: 16px;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  margin-top: 16px;
+  flex-basis: calc(50% - 52px);
+}
+
+@media screen and (max-width: 640px) {
+  .parcel-card {
+    flex-basis: 100%;
+  }
+}
+
+.icon-container {
+  width: 50px;
+}
+
+.icon-container img {
+  width: 100%;
+}
+
+.parcel-info {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.parcel-card .status-title {
+  font-weight: bold;
+}
+
+.parcel-card .parcel-info-style {
+  line-height: 24px;
+}

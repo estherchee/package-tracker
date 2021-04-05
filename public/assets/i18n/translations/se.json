@@ -1,0 +1,12 @@
+{
+  "hello.label": "Hej",
+  "greeting.label": "här är dina paket",
+  "ready-for-pickup.label": "Redo för upphämtning",
+  "on-the-way.label": "På väg",
+  "order-info-received.label": "Orderinfo mottagen",
+  "delivered.label": "Levereras",
+  "parcel.label": "Paket",
+  "from.label": "från",
+  "pickup-location.label": "Hämtningsplats",
+  "eta.label": "Ankomsttid"
+}
