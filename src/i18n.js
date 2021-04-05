@@ -6,14 +6,12 @@ i18n
   .use(HttpApi)
   .use(initReactI18next)
   .init({
-    lng: 'en',  
+    lng: 'en',
     backend: {
-      /* translation file path */
       loadPath: '/assets/i18n/{{ns}}/{{lng}}.json',
     },
     fallbackLng: 'en',
-    debug: true,
-    /* can have multiple namespace, in case you want to divide a huge translation into smaller pieces and load them on demand */
+    debug: false,
     ns: ['translations'],
     defaultNS: 'translations',
     keySeparator: false,
