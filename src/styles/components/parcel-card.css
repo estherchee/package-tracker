@@ -1,11 +1,17 @@
 .parcel-card {
   border: 2px solid #d8f3dc;
   border-radius: 16px;
+  flex-basis: calc(33.33% - 52px);
+  margin: 8px;
   display: flex;
   padding: 16px;
   align-items: center;
-  margin-top: 16px;
-  flex-basis: calc(50% - 52px);
+}
+
+@media screen and (max-width: 992px) {
+  .parcel-card {
+    flex-basis: calc(50% - 52px);
+  }
 }
 
 @media screen and (max-width: 640px) {
