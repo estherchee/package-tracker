@@ -68,15 +68,14 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 
 2.  In the project directory, you can run:
 
-        ####
+    ####
+        npm start
 
-        `npm start`
+    Runs the app in the development mode.\
+    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-        Runs the app in the development mode.\
-        Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-        The page will reload if you make edits.\
-        You will also see any lint errors in the console.
+    The page will reload if you make edits.\
+    You will also see any lint errors in the console.
 
 ---
 
@@ -95,3 +94,35 @@ The project can deploy automatically when push to master branch on Github. To de
 2.  Deploy to Firebase
     ####
         firebase deploy --only hosting
+
+---
+
+## Design considerations:
+
+* This web app was constructed on the basis that the user has successfully signed in to access this web app. Here shows the line which greets the user, using the username provided in the database. 
+
+  ![Picture1](https://github.com/estherchee/package-tracker/Screenshots/GreetUser.jpg) 
+
+* This web app adopts a responsive web design in which the display varies according to the screen size.
+
+  For example, 
+  
+  * this web app looks like this on a computer screen:
+  
+  ![Picture2](https://github.com/estherchee/package-tracker/Screenshots/ComputerScreenshot.jpg) 
+
+  * this web app looks like this on a mobile screen:
+
+  ![Picture3](https://github.com/estherchee/package-tracker/Screenshots/MobileScreenshot.jpg) 
+
+* This web app is available in two languages, in English and Swedish. A user can choose the language through selecting the language on the footer. 
+
+  ![Picture4](https://github.com/estherchee/package-tracker/Screenshots/SwedishVersion.jpg) 
+
+---
+## List of dependencies:
+
+The list of dependencies can be viewed on the file calles *package.json*
+
+---
+
