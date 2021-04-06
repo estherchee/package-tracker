@@ -4,6 +4,13 @@
   max-width: 1320px;
   width: calc(100% - 32px);
   margin: 0px auto;
+  margin-bottom: 64px;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    overflow-y: scroll;
+  }
 }
 
 .greeting {
