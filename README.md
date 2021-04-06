@@ -101,7 +101,7 @@ The project can deploy automatically when push to master branch on Github. To de
 
 * This web app was constructed on the basis that the user has successfully signed in to access this web app. Here shows the line which greets the user, using the username provided in the database. 
 
-  ![Picture1](https://github.com/estherchee/package-tracker/tree/master/Screenshots/GreetUser.jpg) 
+  ![Picture1](https://github.com/estherchee/package-tracker/blob/master/Screenshots/GreetUser.jpg) 
 
 * This web app adopts a responsive web design in which the display varies according to the screen size.
 
@@ -109,15 +109,15 @@ The project can deploy automatically when push to master branch on Github. To de
   
   * this web app looks like this on a computer screen:
   
-  ![Picture2](https://github.com/estherchee/package-tracker/tree/master/Screenshots/ComputerScreenshot.jpg) 
+  ![Picture2](https://github.com/estherchee/package-tracker/blob/master/Screenshots/ComputerScreenshot.jpg) 
 
   * this web app looks like this on a mobile screen:
 
-  ![Picture3](https://github.com/estherchee/package-tracker/tree/master/Screenshots/MobileScreenshot.jpg) 
+  ![Picture3](https://github.com/estherchee/package-tracker/blob/master/Screenshots/MobileScreenshot.jpg) 
 
 * This web app is available in two languages, in English and Swedish. A user can choose the language through selecting the language on the footer. 
 
-  ![Picture4](https://github.com/estherchee/package-tracker/tree/master/Screenshots/SwedishVersion.jpg) 
+  ![Picture4](https://github.com/estherchee/package-tracker/blob/master/Screenshots/SwedishVersion.jpg) 
 
 ---
 ## List of dependencies:
