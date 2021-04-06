@@ -69,6 +69,7 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 2.  In the project directory, you can run:
 
     ####
+
         npm start
 
     Runs the app in the development mode.\
@@ -97,32 +98,43 @@ The project can deploy automatically when push to master branch on Github. To de
 
 ---
 
+<br>
+
 ## Design considerations:
 
-* This web app was constructed on the basis that the user has successfully signed in to access this web app. Here shows the line which greets the user, using the username provided in the database. 
+- This web app was constructed on the basis that the user has successfully signed in to access this web app. Here shows the line which greets the user, using the username provided in the database.
 
-  ![Picture1](https://github.com/estherchee/package-tracker/blob/master/Screenshots/GreetUser.jpg) 
+  ![Picture1](https://github.com/estherchee/package-tracker/blob/master/Screenshots/GreetUser.jpg)
 
-* This web app adopts a responsive web design in which the display varies according to the screen size.
+- The parcels sent to the user are grouped according to their status:
 
-  For example, 
-  
-  * this web app looks like this on a computer screen:
-  
-  ![Picture2](https://github.com/estherchee/package-tracker/blob/master/Screenshots/ComputerScreenshot.jpg) 
+  - Ready for pickup
+  - On the way
+  - Order info received
+  - Deliveredgit
 
-  * this web app looks like this on a mobile screen:
+- This web app adopts a responsive web design in which the display varies according to the screen size.
 
-  ![Picture3](https://github.com/estherchee/package-tracker/blob/master/Screenshots/MobileScreenshot.jpg) 
+  For example,
 
-* This web app is available in two languages, in English and Swedish. A user can choose the language through selecting the language on the footer. 
+  - this web app looks like this on a computer screen:
 
-  ![Picture4](https://github.com/estherchee/package-tracker/blob/master/Screenshots/SwedishVersion.jpg) 
+  ![Picture2](https://github.com/estherchee/package-tracker/blob/master/Screenshots/ComputerScreenshot.jpg)
+
+  - this web app looks like this on a mobile screen:
+
+  ![Picture3](https://github.com/estherchee/package-tracker/blob/master/Screenshots/MobileScreenshot.jpg)
+
+- This web app is available in two languages, in English and Swedish. A user can choose the language through selecting the language on the footer.
+
+  ![Picture4](https://github.com/estherchee/package-tracker/blob/master/Screenshots/SwedishVersion.jpg)
 
 ---
+
+<br>
+
 ## List of dependencies:
 
-The list of dependencies can be viewed on the file calles *package.json*
+The list of dependencies can be viewed on the file calles _package.json_
 
 ---
-
