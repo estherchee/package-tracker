@@ -125,7 +125,7 @@ The project can deploy automatically when push to master branch on Github. To de
 
   <img src="https://github.com/estherchee/package-tracker/blob/master/Screenshots/MobileScreenshot.jpg" alt="mobile-screen" width="300">
 
-- This web app is available in two languages, gitEnglish and Swedish. A user can choose the language through selecting the language on the footer.
+- This web app is available in two languages, English and Swedish. A user can choose the language through selecting the language on the footer.
 
   ![Picture4](https://github.com/estherchee/package-tracker/blob/master/Screenshots/SwedishVersion.jpg)
 
