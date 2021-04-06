@@ -3,10 +3,10 @@
 
 name: Deploy to Firebase Hosting
 
-on:
-  pull_request
-  push: 
-    branches: [master]
+'on':
+  push:
+    branches:
+      - master
 
 jobs:
   build_and_preview:
